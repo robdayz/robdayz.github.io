@@ -1,0 +1,140 @@
+# Hey, thanks for using my theme. If you like this theme,checkout my repo (https://gitlab.com/avron/gruvhugo"
+# and drop a star while you're at it. ;)
+baseurl = "https://robdays.github.io/"
+title = "Roberto Diaz"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+#disqusShortname = "" # Enable comments by entering your Disqus shortname
+#googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+#-------------------------------------------------------------------------------
+# DEFAULT SETTINGS
+#-------------------------------------------------------------------------------
+
+# Default Theme
+theme= "gruvhugo"
+
+# Default Post Extension
+defaultExtension= "html"
+
+# Default metadata format for newly created frontmatter using
+# hugo new command. "toml", "yaml", or "json"
+metaDataFormat= "yaml"
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[params.main]
+  enabled = true
+  enableKatex = true
+  metaKeywords = "fast, hugo, theme, minimal, gruvbox"
+  headerTitle = "Roberto Diaz"
+  copyright = "© 2024 Roberto Diaz.  Site powered by <a href=\"https://gohugo.io/\">Hugo</a>."
+  name = "Roberto Diaz"
+  img = "img/author.jpg"
+  img_title = "Own photo took in Ferrara (Italy) during 2019 Plone Conference closing Party (Castello Estense)."
+  icon = "img/logo.jpg"
+  quote = "Senior Developer & Python lover."
+  description= "Hi, Thanks for coming here! I will update this site with more info about me and my projects."
+  licenseUrl = "license_url"
+
+ # Social icons
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/robdayz"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:robertodiaz76@gmail.com"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/robdayz"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/rdiaz"
+
+[params.style]
+  # add path to custom CSS files here
+  custom_css = []
+  # add path to custom SCSS files here
+  custom_scss = []
+
+# [menu]
+#   [[menu.main]]
+#     identifier = "about"
+#     name       = "About"
+#     url        = "about"
+
+#   [[menu.main]]
+#     identifier = "posts"
+#     name       = "Posts"
+#     url        = "post/"
+
+#   [[menu.main]]
+#     identifier = "wiki"
+#     name       = "Wiki"
+#     url        = "none"
+
+# [markup]
+#   defaultMarkdownHandler = "goldmark"
+#   [markup.asciidocExt]
+#     backend = "html5"
+#     docType = "article"
+#     extensions = []
+#     failureLevel = "fatal"
+#     noHeaderOrFooter = true
+#     safeMode = "unsafe"
+#     sectionNumbers = false
+#     trace = false
+#     verbose = true
+#     workingFolderCurrent = false
+#     [markup.asciidocExt.attributes]
+#   [markup.blackFriday]
+#     angledQuotes = false
+#     footnoteAnchorPrefix = ""
+#     footnoteReturnLinkContents = ""
+#     fractions = true
+#     hrefTargetBlank = false
+#     latexDashes = true
+#     nofollowLinks = false
+#     noreferrerLinks = false
+#     plainIDAnchors = true
+#     skipHTML = false
+#     smartDashes = true
+#     smartypants = true
+#     smartypantsQuotesNBSP = false
+#     taskLists = true
+#   [markup.goldmark]
+#     [markup.goldmark.extensions]
+#       definitionList = true
+#       footnote = true
+#       linkify = true
+#       strikethrough = true
+#       table = true
+#       taskList = true
+#       typographer = true
+#     [markup.goldmark.parser]
+#       attribute = true
+#       autoHeadingID = true
+#       autoHeadingIDType = "github"
+#     [markup.goldmark.renderer]
+#       hardWraps = false
+#       unsafe = false
+#       xhtml = false
+#   [markup.highlight]
+#     codeFences = true
+#     guessSyntax = false
+#     hl_Lines = ""
+#     lineNoStart = 1
+#     lineNos = false
+#     lineNumbersInTable = true
+#     noClasses = true
+#     style = "monokai"
+#     tabWidth = 4
+#   [markup.tableOfContents]
+#     endLevel = 3
+#     ordered = false
+#     startLevel = 2
